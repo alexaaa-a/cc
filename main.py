@@ -6,7 +6,7 @@ from telebot.handler_backends import StatesGroup, State
 
 state_storage = StateMemoryStorage()
 # Вставить свой токет или оставить как есть, тогда мы создадим его сами
-bot = telebot.TeleBot("TOKEN",'6497800304:AAFtdwWbMBOXJQcgdgjebuDACcM5hxcBH5U',
+bot = telebot.TeleBot('6497800304:AAFtdwWbMBOXJQcgdgjebuDACcM5hxcBH5U',
                       state_storage=state_storage, parse_mode='Markdown')
 
 
